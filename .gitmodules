@@ -1,0 +1,3 @@
+[submodule "pitch_backend/third_party/covid"]
+	path = pitch_backend/third_party/covid
+	url = https://github.com/Asoelter/covid.git
