@@ -9,7 +9,24 @@
 
 #include <covid/socket.h>
 
+#include <array>
 #include <string>
+
+enum class Suit : unsigned char
+{
+    Heart,
+    Club,
+    Diamond,
+    Spade
+};
+
+enum class Number : unsigned char
+{
+    Two, Three, Four, Five,
+    Six, Seven, Eight, Nine,
+    Ten, Jack, Queen, King,
+    Ace
+};
 
 void MsgBox(const char * title, const char * message)
 {
